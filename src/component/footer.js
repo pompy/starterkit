@@ -1,10 +1,14 @@
-function Footer() {
+
+import { Layout } from "antd";
+const {  Footer } = Layout;
+
+function FooterApp() {
     return (
-          <p>
-            copyright@company
-          </p>        
+        <Footer style={{ textAlign: "center" }}>
+        Copyright!!
+      </Footer>      
     );
   }
   
-  export default Footer;
+  export default FooterApp;
   
